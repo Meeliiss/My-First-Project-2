@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Levent Sezgin</title>
+<style>
+div {
+  color: #FFFFFF;
+  background-color: #C84B31;
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+.kutu2 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  height: 50px;
+}
+body {
+  background-color: #EEEEEE;
+
+}
+.tanitim1 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama1 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim1 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  margin-top: -28px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.yazi1 {
+  font-size: medium;
+  padding-left: 5px;
+  color: #333652;
+}
+.tanitim2 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama2 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim2 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim3 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama3 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim3 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim4 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama4 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim4 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim5 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama5 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim5 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim6 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama6 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim6 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim7 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama7 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim7 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim8 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama8 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim8 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim9 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama9 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim9 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim10 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama10 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim10 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim11 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama11 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim11 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim12 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama12 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim12 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim13 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama13 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim13 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim14 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama14 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim14 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+.tanitim15 {
+  height: 220px;
+  width: 300px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.aciklama15 {
+  flex: 100px;
+  background-color: #D9D9D9;
+  padding: 0px;
+  height: 220px;
+  width: 800px;
+  margin-left: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.resim15 {
+  height: 220px;
+  width: 300px;
+  margin-left: -400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;   
+  box-shadow: 5px 5px 5px gray;
+}
+</style>
+</head>
+
+<body style="margin: 0px;"">
+<div class="kutu2">
+  <p style="margin-left: 550px; font-size: 40px;">ENERJİ PROJESİ</p>
+</div>
+<div class="tanitim1">
+  <div class="aciklama1">
+    <p class="yazi1">Arkadaşlar burada kullandıgımız...</p> 
+    <img class="resim1" src="image/proje1.jpeg">
+  </div>
+</div>
+<div class="tanitim2">
+  <div class="aciklama2">
+    <img class="resim2" src="image/proje2.jpeg">
+  </div>
+</div>
+<div class="tanitim3">
+  <div class="aciklama3">
+    <img class="resim3" src="image/proje3.jpeg">
+  </div>
+</div>
+<div class="tanitim4">
+  <div class="aciklama4">
+    <img class="resim4" src="image/proje4.jpeg">
+  </div>
+</div>
+<div class="tanitim5">
+  <div class="aciklama5">
+    <img class="resim5" src="image/proje5.jpeg">
+  </div>
+</div>
+<div class="tanitim6">
+  <div class="aciklama6">
+    <img class="resim6" src="image/proje6.jpeg">
+  </div>
+</div>
+<div class="tanitim7">
+  <div class="aciklama7">
+    <img class="resim7" src="image/proje7.jpeg">
+  </div>
+</div>
+<div class="tanitim8">
+  <div class="aciklama8">
+    <img class="resim8" src="image/proje8.jpeg">
+  </div>
+</div>
+<div class="tanitim9">
+  <div class="aciklama9">
+    <img class="resim9" src="image/Su_Tankı.jpeg">
+  </div>
+</div>
+<div class="tanitim10">
+  <div class="aciklama10">
+    <img class="resim10" src="image/proje10.jpeg">
+  </div>
+</div>
+<div class="tanitim11">
+  <div class="aciklama11">
+    <img class="resim11" src="image/proje11.jpeg">
+  </div>
+</div>
+<div class="tanitim12">
+  <div class="aciklama12">
+    <img class="resim12" src="image/proje12.jpeg">
+  </div>
+</div>
+<div class="tanitim13">
+  <div class="aciklama13">
+    <img class="resim13" src="image/proje13.jpeg">
+  </div>
+</div>
+<div class="tanitim14">
+  <div class="aciklama14">
+    <img class="resim14" src="image/proje14.jpeg">
+  </div>
+</div>
+<div class="tanitim15">
+  <div class="aciklama15">
+    <img class="resim15" src="image/proje15.jpeg">
+  </div>
+</div>
+<script type="text/javascript" lang="javascript">
+</script>
+</body>
+</html>
